@@ -17,7 +17,7 @@ while c:
             if action.key == pygame.K_DOWN:
                 sound.stop()
             if action.key == pygame.K_LEFT:
-                sound = pygame.mixer.Sound("Some.mp3")
+                sound = pygame.mixer.Sound("clock.mp3")
             if action.key == pygame.K_LEFT:
-                sound = pygame.mixer.Sound("Some.mp3")
+                sound = pygame.mixer.Sound("clock.mp3")
     pygame.display.update()
